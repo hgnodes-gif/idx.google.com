@@ -9,7 +9,7 @@ interval = 300  # har 5 minute ping karega
 
 while True:
     try:
-        response = requests.get(vps_url)
+        response = requests.get(https://idx.google.com/24x7-63926321)
         if response.status_code == 200:
             print(f"✅ VPS is alive at {time.ctime()}")
         else:
